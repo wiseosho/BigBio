@@ -109,7 +109,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 3장(이승우)
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 4장(박헤진)
 |  2 |2016.5.10 |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발( 회귀모형)
-|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 5장(손진영)
+|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 5장(손준영)
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 6장
 |  3 |2016.5.17 |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발( MLP)
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 7장
