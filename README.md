@@ -39,6 +39,14 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 - [분산 TensorFlow 컴파일 및 테스트](https://github.com/biospin/BigBio/blob/master/reference/tensorflow/tensorflow_install.md)
 - [빅데이터분석-무료 동영상 강의 한글](https://github.com/biospin/BigBio/blob/master/reference/hadoop/bigdata_analysis.md)
 - [하둡 및 Spark로 개발된 바이오인포 도구 목록](https://github.com/biospin/BigBio/blob/master/reference/hadoop/big_bioinfo_tool.md)
+- [클라우데라 배포판으로 하둡 설치하기](https://github.com/biospin/BigBio/blob/master/part03/week01_160503/hadoop/cloudera_install.md)
+
+## 데이터 분석 실습
+- 실습 주제 : 암 환자 RNA정보를 활용한 암 예측 모델 개발
+- [암환자 RNA 정보 획득방법 및 Data 구조파악](https://github.com/biospin/DeepBio/blob/master/part03/Week1_160105/Cancer_Data.ipynb)
+- [암환자  mRNA 데이터 수집 및 구조](https://github.com/biospin/DeepBio/blob/master/exercise01/cancer_data_structur.ipynb)
+- [암환자  mRNA데이터를 DB와 HBase에 올리기](https://github.com/biospin/DeepBio/blob/master/exercise01/mRNA_Upload_script.ipynb)
+- [암환자  mRNA에서 학습용, Valiaiotion용, Test용 데이터 만들기](https://github.com/biospin/DeepBio/blob/master/exercise01/mRNA_make_feature.ipynb)
 
 ## 데이터 분석 실습용 데이터
 - 공유폴더  > 빅바이오 > 참고자료 > 학습용 데이터 
@@ -95,16 +103,21 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |    |          |(딥러닝 실습) [Vector Representations of Words(한성국)](https://github.com/biospin/BigBio/blob/master/part02/week03_160419/tensorflow/Vector%20representations%20of%20words.pdf)
 |    |          |(딥러닝 실습) 참고 논문 : [DistributedRepresentations](https://github.com/biospin/BigBio/blob/master/part02/week03_160419/tensorflow/DistributedRepresentations.pdf), [Learning word embeddings efficiently](https://github.com/biospin/BigBio/blob/master/part02/week03_160419/tensorflow/NCE.pdf), [Efficient Estimation of Word Representations](https://github.com/biospin/BigBio/blob/master/part02/week03_160419/tensorflow/wordvec-efficient.pdf)
 |    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 8장(우륭)
-|  4 |2016. 4.26|(통계기초) Introductory Statistics with R (Chap. 15~16)(유재용)
+|  4 |2016. 4.26|(통계기초) [Introductory Statistics with R (Chap. 15~16 이론)(유재용)](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/statistics/%EB%B0%9C%ED%91%9C_%EC%9C%A0%EC%9E%AC%EC%9A%A9.ppt)
+|    |          |(통계기초) [Introductory Statistics with R (Chap. 15~16 R실습)(유재용)](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/statistics/%EB%B0%9C%ED%91%9C_%EC%9C%A0%EC%9E%AC%EC%9A%A9.R)
 |    |          |(딥러닝 실습) [Recurrent Neural Networks 이론(지용기)](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/tensorflow/RNN_%EC%9D%B4%EB%A1%A0.ipynb)
 |    |          |(딥러닝 실습) [RNN 실습](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/tensorflow/RNN_%EC%8B%A4%EC%8A%B5.ipynb), [Udacity Word2Vect](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/tensorflow/5_word2vec.ipynb), [Udacity LSTM](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/tensorflow/6_lstm.ipynb)
-|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 1 ~ 2장(박세진)
+|    |          |(빅데이터 기초) [러닝 스파크(Learning Spark)이론: 1 ~ 2장(박세진)](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/spark/bicbio_spark%20CH1_2_Learning%20Spark.pdf)
+|    |          |(빅데이터 기초) [러닝 스파크(Learning Spark)실습: 1 ~ 2장(박세진)](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/spark/bicbio_spark_ch02example.ipynb)
+
+
 
 
 ### Part 3.
 
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
+<<<<<<< HEAD
 |  1 |2016.5.3  |(딥러닝 실습) 암 환자의 유전체데이터  및 데이터 변환작업 소개 ( TCGA )(지용기)
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 3장(이승우)
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 4장(박헤진)
@@ -117,6 +130,26 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |  4 |2016.5.24 |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발(DBN)
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 9장
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 11장
+=======
+|  1 |2016.5.3  |(딥러닝 실습) [암 환자의 유전체데이터  및 데이터 변환작업 소개 ( TCGA )(지용기)](https://github.com/biospin/DeepBio/blob/master/exercise01/mRNA_make_feature.ipynb)
+|    |          |[(빅데이터 기초) 러닝 스파크(Learning Spark) 이론 : 3장(이승우)](https://github.com/biospin/BigBio/blob/master/part03/week01_160503/Programming%20with%20RDDs.pdf)
+|    |          |[(빅데이터 기초) 러닝 스파크(Learning Spark) 실습 : 3장(이승우)](https://github.com/biospin/BigBio/blob/master/part03/week01_160503/Getting_Started_with_RDDs.ipynb)
+|    |          |(빅데이터 기초) [러닝 스파크(Learning Spark) : 4장(박혜진)](https://github.com/biospin/BigBio/blob/master/part03/week01_160503/spark_04_key_value_pair.ipynb)
+|  2 |2016.5.10 |(딥러닝 실습) [TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발( 회귀모형 1, 실습1)(조익연)](https://github.com/biospin/BigBio/blob/master/part03/week02_160510/TensorFlow%ED%99%9C%EC%9A%A9%20%EC%95%94%EC%A2%85%EB%A5%98%20%EC%98%88%EC%B8%A1%201.ipynb)
+|    |          |(딥러닝 실습) [TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발( 회귀모형 1, 실습2)(조익연)](https://github.com/biospin/BigBio/blob/master/part03/week02_160510/TensorFlow%ED%99%9C%EC%9A%A9%20%EC%95%94%EC%A2%85%EB%A5%98%20%EC%98%88%EC%B8%A1%202.ipynb)
+|    |          |(빅데이터 기초) [러닝 스파크(Learning Spark) 이론 : 5장(손준영)](https://github.com/biospin/BigBio/blob/master/part03/week02_160510/Learning%20Spark.5/Learning%20Spark%205-pres-JY.pdf)
+|    |          |(빅데이터 기초) [러닝 스파크(Learning Spark) 실습 : 5장(손준영)](https://github.com/biospin/BigBio/blob/master/part03/week02_160510/Learning%20Spark.5/Learning%20Spark%205.ipynb)
+|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 6장(박세진)
+|  3 |2016.5.17 |(딥러닝 실습) [TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발( 회귀모형 2)(조익연)](https://github.com/biospin/BigBio/blob/master/part03/week03_160517/TensorFlow%ED%99%9C%EC%9A%A9%20%EC%95%94%EC%A2%85%EB%A5%98%20%EC%98%88%EC%B8%A1_%EC%B5%9C%EC%A2%85.ipynb)
+|    |          |(빅데이터 기초) [러닝 스파크(Learning Spark) : 7장(지용기)](https://github.com/biospin/BigBio/blob/master/part03/week03_160517/spark/learning.spark.07.RunningOnaCluster.ipynb)
+|    |          |(빅데이터 기초) [러닝 스파크(Learning Spark) : 8장(박혜진)](https://github.com/biospin/BigBio/blob/master/part03/week03_160517/Ch8_SparkConf.pdf)
+|  4 |2016.5.24 |(딥러닝 실습) [TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발(MLP) 이론(한성국)](https://github.com/biospin/BigBio/blob/master/part03/week04_160525/tensorflow/tensorflow-mlp.pdf)
+|    |          |(딥러닝 실습) [TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발(MLP) 코드(한성국)](https://github.com/biospin/BigBio/tree/master/part03/week04_160525/tensorflow)
+|    |          |(딥러닝 실습) [TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발(데이터 변환 및 PCA 활용)(박혜진)](https://github.com/biospin/BigBio/blob/master/part03/week04_160525/preprocessing_logistic_Hyejin_Park.ipynb)
+|    |          |(빅데이터 기초) [러닝 스파크(Learning Spark) : 9장(박세진)](https://github.com/biospin/BigBio/blob/master/part03/week04_160525/BIGBIO_LearningSpark_ch9_SPARKSQL.ipynb)
+|    |          |(빅데이터 기초) [러닝 스파크(Learning Spark) : 11장 이론(지용기)](https://github.com/biospin/BigBio/blob/master/part03/week04_160525/spark/learning.spark.11.MachineLearningwithMLlib.ipynb)
+|    |          |(빅데이터 기초) [러닝 스파크(Learning Spark) : 11장 실습(지용기)](https://github.com/biospin/BigBio/blob/master/part03/week04_160525/spark/05.Building%20a%20Classification%20Model%20with%20Spark.ipynb)
+>>>>>>> refs/remotes/biospin/master
 
 
 ### Part 4.
@@ -124,59 +157,66 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
 |  1 |2016.5.31|(구글 genomics) https://cloud.google.com/genomics/what-is-google-genomics : 
-|    |          |    What Is Google Genomics?,  Pricing and Quotas ,   Getting Started
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  1장 , 2장
-|  2 |2016.6.7 |(구글 genomics) https://cloud.google.com/genomics/what-is-google-genomics : 
-|    |          |    Tutorials : Analyze Variants Using BigQuery
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  5장
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  6장
-|  3 |2016. 6.14|(구글 genomics) https://cloud.google.com/genomics/what-is-google-genomics : 
-|    |          |    Tutorials : Load Genomic Variants
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  7장
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  8장
-|  4 |2016. 6.21|(구글 genomics) https://cloud.google.com/genomics/what-is-google-genomics : 
-|    |          |    Tutorials : Running Broad Institute GATK
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  9장
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  10장
+|    |          |    [What Is Google Genomics?,  Pricing and Quotas ,   Getting Started](https://github.com/biospin/BigBio/blob/master/part04/week01_160531/Getting%20Started%20With%20Google%20Genomics.pdf) (이승우)
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  1장 , 2장 : Secondary Sort (박세진)
+|  2 |2016.6.7  |(구글 genomics) [How-to Guide: Analyze Variants Using BigQuery](https://cloud.google.com/genomics/v1/analyze-variants)( 조익연 )[발표자료](https://github.com/biospin/BigBio/blob/master/part04/week02_160607/Google%20Genomics_BigQuery.pdf)
+|    |          |(빅데이터 유전체 분석) [Data Algorithms:  5장  Order Inversion ( 박혜진 )](https://github.com/biospin/BigBio/blob/master/part04/week02_160607/oiPattern.pdf)
+|    |          |(빅데이터 유전체 분석) [테스트환경 구축](https://github.com/biospin/BigBio/tree/master/reference/ubuntu-vnc-eclipse)
+|    |          |(빅데이터 유전체 분석) [Data Algorithms:  6장 Moving Average( 지용기 )](https://github.com/biospin/BigBio/blob/master/part04/week02_160607/dataalgorithms06/chap06_moving_average.ipynb)
+|  3 |2016. 6.14|(구글 genomics) [How-to Guide : Installing the Cloud SDK and Genomics Commands](https://cloud.google.com/genomics/install-genomics-tools)(이창언) [발표자료](https://github.com/biospin/BigBio/blob/master/part04/week03_160614/Cloud%20SDK%20And%20Genomics%20Commands.pdf)
+|    |          |(빅데이터 유전체 분석) [Data Algorithms:  7장 Market Basket Analysis( 박세진)](https://github.com/biospin/BigBio/blob/master/part04/week03_160614/Ch7_MarketingBasketAnalysis.pdf)
+|    |          |(빅데이터 유전체 분석) [Data Algorithms:  8장 Common Friends(지용기 )](https://github.com/biospin/BigBio/blob/master/part04/week03_160614/dataalgorithms08/Chap08_CommonFriends.ipynb)
+|  4 |2016. 6.21|(구글 genomics) [How-to Guide :  Loading Genomic Variants](https://cloud.google.com/genomics/v1/load-variants) (Peterpan Kim)[발표자료](https://github.com/biospin/BigBio/blob/master/part04/week04_160621/Loading%20Genomic%20Variants.pdf)
+|    |          |(빅데이터 유전체 분석) [Data Algorithms:  9장 Recommendation Engines Using MapReduce (이승우)](https://github.com/biospin/BigBio/blob/master/part04/week04_160621/Chapter%209.pdf)
+|    |          |(빅데이터 유전체 분석) [Data Algorithms:  9장 보강](https://github.com/biospin/BigBio/blob/master/part04/week04_160621/spark/Chap09_Recommendation.ipynb)
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  10장 Content-Based Recommendation: Movies (이창언)
 
 ### Part 5.
 
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
-|  1 |2016. 6.28|(구글 genomics) https://cloud.google.com/genomics/what-is-google-genomics : 
-|    |          |    Tutorials : Finding Public Data
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  11장
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  12장
-|  2 |2016. 7. 5|(구글 genomics) http://googlegenomics.readthedocs.org/en/latest/ :
-|    |          |    Process Data on Google Cloud
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  13장
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  14장
-|  3 |2016. 7.12|(구글 genomics) http://googlegenomics.readthedocs.org/en/latest/ :
-|    |          |   Access Genomic Data using
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  15장
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  16장
-|  4 |2016. 7.19|(구글 genomics) http://googlegenomics.readthedocs.org/en/latest/ :
-|    |          |   Analyze Data in Google Genomics -> Analyze Reads
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  17장
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  18장
+|  1 |2016. 6.28|(구글 genomics) [Broad Institute GATK on Google Genomics](https://cloud.google.com/genomics/gatk) (박세진)
+|    |          |[GATK 자료1](https://github.com/biospin/BigBio/blob/master/part05/week02_160705/GATKwr8-A-1-Workshop_intro.pdf), [GATK 자료2](https://github.com/biospin/BigBio/blob/master/part05/week02_160705/GATKwr8-A-2-Intro_to_HTS.pdf), [GATK 자료3](https://github.com/biospin/BigBio/blob/master/part05/week02_160705/GATKwr8-A-3-GATK_Best_Practices_and_Broad_pipelines.pdf)
+|    |          |(빅데이터 유전체 분석) [Data Algorithms:  11장  Smarter Email Marketing with the Markov Model (박혜진)](https://github.com/biospin/BigBio/blob/master/part05/week01_160628/11.MarkovModel.pdf)
+|    |          |(빅데이터 유전체 분석) [Data Algorithms:  12장 K-Means Clustering(송원종)](https://github.com/biospin/BigBio/blob/master/part05/week02_160705/K-Means%20Clustering.pdf)
+|  2 |2016. 7. 5|(구글 genomics) [Running Custom Pipelines](https://cloud.google.com/genomics/v1alpha2/pipelines) [발표자료](https://github.com/biospin/BigBio/blob/master/part05/week02_160705/%EA%B5%AC%EA%B8%80%EC%A7%80%EB%85%B8%EB%AF%B9%EC%8A%A4_%EB%B9%A0%EC%9D%B4%EC%81%98%EB%9D%BC%EC%9D%B8_%EC%8B%A4%ED%96%89.md) (이승우)
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  13장 k-Nearest Neighbors(이창언)
+|    |          |(빅데이터 유전체 분석) [Data Algorithms:  14장 Naive Bayes(지용기)](https://github.com/biospin/BigBio/blob/master/part05/week02_160705/data_algorithms/Chap14_NavieBayes.ipynb)
+|  3 |2016. 7.12|(구글 genomics) [Google Genomics Public Data](https://cloud.google.com/genomics/v1/public-data)
+|    |          |full list of published data정리, 3가지 access방법에 대한 예제 보여주기 (손준영)
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  15장 Sentiment Analysis (송원종)
+|    |          |(빅데이터 유전체 분석) [Data Algorithms:  16장 Finding, Counting, and Listing All Triangles in Large Graphs](https://github.com/biospin/BigBio/blob/master/part05/week03_160712/data_algorithms/chap16_Finding%2C%20Counting%2C%20and%20Listing%20All%20Triangles%20in%20Large%20Graphs.ipynb) (지용기)
+|  4 |2016. 7.19|(구글 genomics)[Docs » Process Data on Google Cloud »  Run workflows and common tasks in parallel](http://googlegenomics.readthedocs.io/en/latest/use_cases/run_pipelines_in_the_cloud/index.html) (손준영)
+|    |          |(빅데이터 유전체 분석) [Data Algorithms:  17장 K-mer Counting](https://github.com/biospin/BigBio/blob/master/part05/week04_160719/dataalgorith/Chap17_K-merCounting.ipynb) (지용기)
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  18장 DNA Sequencing (김가경)
 
 ### Part 6.
 
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
-|  1 |2016. 7.26|(구글 genomics) http://googlegenomics.readthedocs.org/en/latest/ :
-|    |          |   Analyze Data in Google Genomics -> Analyze Variants
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  19장
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  20장
-|  2 |2016. 8. 2|(구글 genomics) http://googlegenomics.readthedocs.org/en/latest/ :
-|    |          |   Analyze Data in Google Genomics -> Annotate Variants
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  21장
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  22장
-|  3 |2016. 8. 9|(구글 genomics) http://googlegenomics.readthedocs.org/en/latest/ :
-|    |          |   Analyze Data in Google Genomics -> Learn More 1
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  23장
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  24장
-|  4 |2016. 8.16|(구글 genomics) http://googlegenomics.readthedocs.org/en/latest/ :
-|    |          |   Analyze Data in Google Genomics -> Learn More 2
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  25장
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  26장
+|  1 |2016. 7.26|(구글 genomics)[Docs » Process Data on Google Cloud » Create a Grid Engine cluster on Compute Engine](http://googlegenomics.readthedocs.io/en/latest/use_cases/setup_gridengine_cluster_on_compute_engine/index.html)
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  19장 Cox Regression
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  20장 Cochran-Armitage Test for Trend
+|  2 |2016. 8. 2|(구글 genomics)[Docs » Process Data on Google Cloud » Create a Grid Engine cluster with Preemptible VM workers](http://googlegenomics.readthedocs.io/en/latest/use_cases/setup_gridengine_cluster_on_compute_engine/preemptible_vms.html)
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  21장 Allelic Frequency
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  22장 The T-Test
+|  3 |2016. 8. 9|(구글 genomics) [Docs » Process Data on Google Cloud » Run SAMtools to index BAM files in Cloud Storage](http://googlegenomics.readthedocs.io/en/latest/use_cases/run_samtools_over_many_files/index.html)
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  23장 Pearson Correlation
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  24장 DNA Base Count
+|  4 |2016. 8.16|(구글 genomics) [Docs » Analyze Data in Google Genomics » Analyze Reads](http://googlegenomics.readthedocs.io/en/latest/use_cases/analyze_reads/index.html)
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  25장 RNA Sequencing
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  26장 Gene Aggregation
+
+
+### 스케줄에 없는 구글 genomics 문서들  
+- (구글 genomics)  http://googlegenomics.readthedocs.io/en/latest/use_cases/analyze_variants/index.html  :
+    - Docs » Analyze Data in Google Genomics »  Analyze Variants 
+- (구글 genomics)  http://googlegenomics.readthedocs.io/en/latest/use_cases/annotate_variants/index.html   :
+    - Docs » Analyze Data in Google Genomics » Annotate Variants
+- (구글 genomics) http://googlegenomics.readthedocs.io/en/latest/use_cases/perform_quality_control_checks/index.html   :
+    - Docs » Analyze Data in Google Genomics »  Perform Quality Control Checks"
+- (구글 genomics)  http://googlegenomics.readthedocs.io/en/latest/use_cases/linkage_disequilibrium/index.html   :
+    - Docs » Analyze Data in Google Genomics » Compute and Analyze Linkage Disequilibrium"
+- (구글 genomics) http://googlegenomics.readthedocs.io/en/latest/sections/advanced_bigquery.html   :
+    - Docs » Analyze Data in Google Genomics »  Advanced BigQuery Topics
+
